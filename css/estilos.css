@@ -1,0 +1,16 @@
+alado Grande */
+.btn-mashka {
+    background-color: var(--yellow) !important;
+    color: #000000 !important;
+    font-family: var(--font-body);
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+    border: none;
+    width: 100%;
+    max-width: 380px; /* Tamaño controlado del botón */
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.btn-mashka:hover {
+    background-color: var(--yellow-dark) !important;
+}
