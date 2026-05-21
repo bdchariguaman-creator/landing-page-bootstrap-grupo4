@@ -14,3 +14,35 @@ alado Grande */
 .btn-mashka:hover {
     background-color: var(--yellow-dark) !important;
 }
+
+/* ==========================================================================
+   PIE DE PÁGINA (FOOTER)
+   ========================================================================= */
+footer {
+    font-family: var(--font-body);
+}
+
+footer .footer-info p {
+    color: var(--text-muted);
+    font-size: 1.05rem;
+}
+
+/* Botones de Redes Sociales con borde Amarillo */
+footer .social-link {
+    background-color: transparent !important;
+    border: 1px solid rgba(242, 207, 29, 0.3) !important; /* Borde amarillo suave */
+    color: var(--yellow) !important;
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: all 0.2s ease;
+}
+
+footer .social-link:hover {
+    background-color: var(--yellow) !important;
+    border-color: var(--yellow) !important;
+    color: #000000 !important; /* Cambia a texto negro en hover */
+}
+
+footer .footer-copy {
+    color: rgba(255, 255, 255, 0.3);
+}
