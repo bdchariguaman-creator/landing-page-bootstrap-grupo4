@@ -404,20 +404,38 @@
 
     <hr>
 
-    <!-- VIDEO -->
-    <section id="video-section">
-        <div class="section-label">En acción</div>
-        <h2 class="section-title">Conoce nuestro entrenamiento</h2>
-        <div class="video-row">
-            <img src="img/img1.jpg" alt="Entrenamiento" class="video-side-img">
-            <video controls>
-                <source src="videos/video1.mp4" type="video/mp4">
-            </video>
-            <img src="img/img2.webp" alt="Entrenamiento" class="video-side-img">
+    <section id="video-section" class="py-5 bg-black text-light">
+        <div class="container text-center">
+            
+            <div class="mb-5">
+                <span class="d-block text-uppercase fw-bold text-warning small tracking-wider">En acción</span>
+                <h2 class="display-4 text-uppercase fw-bold text-white m-0">Conoce nuestro entrenamiento</h2>
+            </div>
+            
+            <div class="row g-4 align-items-center">
+                
+                <div class="col-12 col-md-3">
+                    <img src="img/img1.jpg" alt="Entrenamiento" class="img-fluid rounded shadow-sm w-100">
+                </div>
+                
+                <div class="col-12 col-md-6">
+                    <div class="ratio ratio-16x9 rounded overflow-hidden shadow-lg border border-secondary border-opacity-25">
+                        <video controls class="w-100 h-100">
+                            <source src="videos/video1.mp4" type="video/mp4">
+                            Tu navegador no soporta videos.
+                        </video>
+                    </div>
+                </div>
+                
+                <div class="col-12 col-md-3">
+                    <img src="img/img2.webp" alt="Entrenamiento" class="img-fluid rounded shadow-sm w-100">
+                </div>
+                
+            </div>
         </div>
     </section>
 
-    <hr>
+    <hr class="m-0 border-secondary opacity-25">
 
     <!-- MAPA -->
     <section id="mapa-section">
